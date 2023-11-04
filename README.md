@@ -12,18 +12,27 @@ git clone https://github.com/Rufus31415/local-document-gpt.git
 ## 2. Install Anaconda
 - Download : https://www.anaconda.com/download
 - Create a new environment and activate it :
-  - 1. Either from command line
+
+<details open>
+<summary>Either from command line</summary>
+  
 ```shell
 conda create -n local-document-gpt python=3.10.13
 conda activate local-document-gpt
 ```
 
-  - 2. Or from GUI
+</details>
+
+<details>
+<summary>Or from GUI</summary>
+  
 ![](Images/anaconda-new-environment.png)
 
 ![](Images/anaconda-open-terminal.png)
 
 ![](Images/anaconda-change-directory.png)
+
+</details>
 
 ## 3. Install requirements
 - Install Python requirements
