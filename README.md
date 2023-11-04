@@ -6,7 +6,7 @@
 
 ## 1. Clone this repo
 ```shell
-git clone https://github.com/Rufus31415/local-document-gpt.git
+git clone https://github.com/Rufus31415/local-documents-gpt.git
 ```
 
 ## 2. Install Anaconda
@@ -17,8 +17,8 @@ git clone https://github.com/Rufus31415/local-document-gpt.git
 <summary>Either from command line</summary>
   
 ```shell
-conda create -n local-document-gpt python=3.10.13
-conda activate local-document-gpt
+conda create -n local-documents-gpt python=3.10.13
+conda activate local-documents-gpt
 ```
 
 </details>
@@ -52,7 +52,16 @@ python -c "import torch;print(torch.cuda.is_available())"
 ```
 
 ## 5. Learn from your documents
-
+- Copy your documents in ```LOCAL-DOCUMENTS``` directory
+- Learn these documents (the embedding model is downloaded at the first run)
+```shell
+python learn.py
+```
+- Your documents are then saved as a vectore store in the ```DB-LEARNED-LOCAL-DOCUMENTS``` directory. 
 
 ## 6. Chat with your documents
-
+- Run the console chat (the language modele is downloaded at the first run in ```llm``` directory)
+```shell
+python chat.py
+```
+- Enjoy :)
