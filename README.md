@@ -1,4 +1,4 @@
-# Local Document GPT
+# Local Documents GPT
 
 
 
@@ -44,7 +44,11 @@ pip install -r requirements.txt
 - Install CUDA if you have a compatible GPU : https://developer.nvidia.com/cuda-downloads
 - Install Python requirements
 ```shell
-pip install torch==1.9.0+cu102 torchvision==0.10.0+cu102 torchaudio===0.9.0 -f https://download.pytorch.org/whl/torch_stable.htmlpython
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+```
+- To check CUDA is available, this command shoud output ```True```
+```shell
+python -c "import torch;print(torch.cuda.is_available())"
 ```
 
 ## 5. Learn from your documents
