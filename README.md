@@ -1,5 +1,9 @@
 # Local Documents GPT
 
+In less than **200 lines of Python**, this repository gives you a template for creating an **offline** powerful ChatGPT-like chatbot to query a **large corpus of documents**. 
+
+
+![](Images/demo-chat.gif)
 
 
 # Get started
